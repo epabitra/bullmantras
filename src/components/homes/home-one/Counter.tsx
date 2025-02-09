@@ -10,26 +10,26 @@ interface DataType {
 const count_data: DataType[] = [
    {
       id: 1,
-      count: 45,
-      count_text: "K+",
-      text: "Active Students",
+      count: 250,
+      count_text: "+",
+      text: "Happy Students",
    },
    {
       id: 2,
       count: 89,
       count_text: "+",
-      text: "Faculty Courses",
+      text: "Testimonial",
    },
    {
       id: 3,
       count: 156,
-      count_text: "K",
-      text: "Best Professors",
+      count_text: "+",
+      text: "Seminars",
    },
    {
       id: 4,
-      count: 42,
-      count_text: "K",
+      count: 22,
+      count_text: "+",
       text: "Award Achieved",
    },
 ];

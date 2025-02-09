@@ -1,22 +1,19 @@
 import HeaderTopOne from "./menu/HeaderTopOne"
 import NavMenu from "./menu/NavMenu"
-import React, { useState } from "react"
+import { useState } from "react"
 import MobileSidebar from "./menu/MobileSidebar"
 import UseSticky from "../../hooks/UseSticky"
 import { Link } from "react-router-dom"
 import InjectableSvg from "../../hooks/InjectableSvg"
-import CustomSelect from "../../ui/CustomSelect"
-import TotalWishlist from "../../components/common/TotalWishlist"
-import TotalCart from "../../components/common/TotalCart"
 import { toAbsoluteUrl } from "../../helper/HelperConstants"
 
 const HeaderOne = () => {
 
-   const [selectedOption, setSelectedOption] = React.useState(null);
+   // const [selectedOption, setSelectedOption] = React.useState(null);
 
-   const handleSelectChange = (option: React.SetStateAction<null>) => {
-      setSelectedOption(option);
-   };
+   // const handleSelectChange = (option: React.SetStateAction<null>) => {
+   //    setSelectedOption(option);
+   // };
 
    const { sticky } = UseSticky();
    const [isActive, setIsActive] = useState<boolean>(false);
@@ -38,12 +35,12 @@ const HeaderOne = () => {
                               <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                  <NavMenu />
                               </div>
-                              <div className="tgmenu__search d-none d-md-block">
+                              {/* <div className="tgmenu__search d-none d-md-block">
                                  <CustomSelect value={selectedOption} onChange={handleSelectChange} />
-                              </div>
+                              </div> */}
                               <div className="tgmenu__action">
                                  <ul className="list-wrap">
-                                    <li className="wishlist-icon">
+                                    {/* <li className="wishlist-icon">
                                        <Link to={toAbsoluteUrl("#")} className="cart-count">
                                           <InjectableSvg src={toAbsoluteUrl("/assets/img/icons/heart.svg")} className="injectable" alt="img" />
                                           <TotalWishlist />
@@ -54,9 +51,9 @@ const HeaderOne = () => {
                                           <InjectableSvg src={toAbsoluteUrl("/assets/img/icons/cart.svg")} className="injectable" alt="img" />
                                           <TotalCart />
                                        </Link>
-                                    </li>
+                                    </li> */}
                                     <li className="header-btn login-btn">
-                                       <Link to={toAbsoluteUrl("#")}>Enroll Now</Link>
+                                       <Link to={toAbsoluteUrl("/contact")}>Enroll Now</Link>
                                     </li>
                                  </ul>
                               </div>

@@ -5,7 +5,7 @@ import course_data from "../../../data/home-data/CourseData";
 import { Link } from "react-router-dom";
 import { toAbsoluteUrl } from "../../../helper/HelperConstants";
 
-const tab_title: string[] = ["All Courses", "Design", "Business", "Development"];
+const tab_title: string[] = ["All Courses" /*, "Design", "Business", "Development"*/];
 
 // slider setting
 const setting = {
@@ -65,13 +65,13 @@ const CourseArea = ({ style }: CourseProps) => {
               <div className="section__title text-center mb-40">
                 <span className="sub-title">Top Class Courses</span>
                 <h2 className="title">Explore Our World&apos;s Best Courses</h2>
-                <p className="desc">When known printer took a galley of type scrambl edmake</p>
+                <p className="desc">Discover expertly crafted courses designed to elevate your skills and knowledge. Join a global community of learners and take your expertise to the next level.</p>
               </div>
               <div className="courses__nav">
                 <ul className="nav nav-tabs" id="courseTab" role="tablist">
                   {tab_title.map((tab, index) => (
                     <li key={index} onClick={() => handleTabClick(index)} className="nav-item" role="presentation">
-                      <button className={`nav-link ${activeTab === index ? "active" : ""}`}>{tab}</button>
+                      <button className={`nav-link ${activeTab === index ? "" /*active*/ : ""}`}>{tab}</button>
                     </li>
                   ))}
                 </ul>

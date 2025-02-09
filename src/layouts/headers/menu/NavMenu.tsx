@@ -10,7 +10,7 @@ const NavMenu = () => {
    }, [navClick]);
 
    return (
-      <ul className="navigation">
+      <ul className="navigation w-100 me-3 justify-content-end">
          {menu_data.map((menu) => (
             <li key={menu.id} >
                <Link onClick={() => setNavClick(!navClick)} to={menu.link}>{menu.title}</Link>

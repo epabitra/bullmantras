@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import SvgAnimation from '../../../hooks/SvgAnimation';
-import BtnArrow from '../../../svg/BtnArrow';
+// import BtnArrow from '../../../svg/BtnArrow';
 import { toAbsoluteUrl } from '../../../helper/HelperConstants';
 
 const Banner = () => {

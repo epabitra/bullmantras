@@ -2,7 +2,7 @@ import { toAbsoluteUrl } from "../../../helper/HelperConstants"
 
 const Newsletter = () => {
    return (
-      <section className="newsletter__area">
+      <section className="newsletter__area" style={{"zIndex": 3}}>
          <div className="container">
             <div className="row align-items-center">
                <div className="col-lg-4">

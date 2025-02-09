@@ -13,43 +13,43 @@ const category_data: DatatYpe[] = [
    {
       id: 1,
       icon: "flaticon-graphic-design",
-      title: "Graphic Design",
+      title: "Technology Stocks",
       total: "(22)"
    },
    {
       id: 2,
       icon: "flaticon-investment",
-      title: "Finance",
+      title: "EV & Renewable Energy",
       total: "(41)"
    },
    {
       id: 3,
       icon: "flaticon-coding",
-      title: "Development",
+      title: "Healthcare & Biotech",
       total: "(29)"
    },
    {
       id: 4,
       icon: "flaticon-email",
-      title: "Marketing",
+      title: "Finance & Banking",
       total: "(31)"
    },
    {
       id: 5,
       icon: "flaticon-fashion",
-      title: "Life Style",
+      title: "Consumer & Retail",
       total: "(23)"
    },
    {
       id: 6,
       icon: "flaticon-interaction",
-      title: "Management",
+      title: "AI & Automation",
       total: "(19)"
    },
    {
       id: 7,
       icon: "flaticon-web-design",
-      title: "App Design",
+      title: "Metaverse & Gaming",
       total: "(18)"
    },
 ];
@@ -96,9 +96,9 @@ const Categories = () => {
             <div className="row justify-content-center">
                <div className="col-xl-5 col-lg-7">
                   <div className="section__title text-center mb-40">
-                     <span className="sub-title">Trending Categories</span>
-                     <h2 className="title">Top Category We Have</h2>
-                     <p className="desc">when known printer took a galley of type scrambl edmake</p>
+                     <span className="sub-title">Trending Stocks Categories</span>
+                     <h2 className="title">Top Categories to Watch</h2>
+                     <p className="desc">Explore the most active and high-performing stock categories, updated based on market trends and investor interest.</p>
                   </div>
                </div>
             </div>

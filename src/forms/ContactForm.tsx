@@ -9,7 +9,7 @@ import { useRef } from 'react';
 interface FormData {
    user_name: string;
    user_email: string;
-   web: string;
+   user_phone: string;
    message: string;
 }
 
@@ -17,7 +17,7 @@ const schema = yup
    .object({
       user_name: yup.string().required().label("Name"),
       user_email: yup.string().required().email().label("Email"),
-      web: yup.string().required().label("Website"),
+      user_phone: yup.string().required().label("Phone"),
       message: yup.string().required().label("Message"),
    })
    .required();
@@ -30,11 +30,18 @@ const ContactForm = () => {
 
    const sendEmail = () => {
       if (form.current) {
-         emailjs.sendForm('eaglesthemes', 'template_lojvsvb', form.current, 'mtLgOuG25NnIwGeKm')
+         emailjs.sendForm('service_84dedkm', 'template_hltwk3c', form.current, '9ZikBHRCsyB5Iw-I0')
             .then((result) => {
                const notify = () => toast('Message sent successfully', { position: 'top-center' });
                notify();
                reset();
+               console.log(result.text);
+            }, (error) => {
+               console.log(error.text);
+            });
+
+         emailjs.sendForm('service_84dedkm', 'template_qwistvi', form.current, '9ZikBHRCsyB5Iw-I0')
+            .then((result) => {
                console.log(result.text);
             }, (error) => {
                console.log(error.text);
@@ -65,8 +72,8 @@ const ContactForm = () => {
             </div>
             <div className="col-md-4">
                <div className="form-grp">
-                  <input {...register("web")} type="url" placeholder="Website *" required />
-                  <p className="form_error">{errors.web?.message}</p>
+                  <input {...register("user_phone")} type="phone" placeholder="Phone *" required />
+                  <p className="form_error">{errors.user_phone?.message}</p>
                </div>
             </div>
          </div>

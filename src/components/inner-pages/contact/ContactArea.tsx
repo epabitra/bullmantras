@@ -4,7 +4,7 @@ import InjectableSvg from "../../../hooks/InjectableSvg"
 
 const ContactArea = () => {
    return (
-      <section className="contact-area section-py-120">
+      <section className="contact-area pb-5">
          <div className="container">
             <div className="row">
                <div className="col-lg-4">

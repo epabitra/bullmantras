@@ -64,9 +64,9 @@ const FaqArea = () => {
                   <div className="faq__content">
                      <div className="section__title pb-10">
                         <span className="sub-title">Faq’s</span>
-                        <h2 className="title">Start Learning From <br /> World’s Pro Instructors</h2>
+                        <h2 className="title">Start Learning from the World’s Best Instructors</h2>
                      </div>
-                     <p>Groove’s intuitive shared inbox makes it easy for team members to organize, prioritize and.In this episode.</p>
+                     <p>At BullMantra, we bring you top-tier trading education led by industry professionals. Our structured courses, real-time market insights, and expert mentorship help you build confidence and master the art of trading.</p>
                      <div className="faq__wrap">
                         <div className="accordion" id="accordionExample">
                            {faqData.map((item, index) => (

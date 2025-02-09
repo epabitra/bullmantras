@@ -8,7 +8,7 @@ const FooterCommon = () => {
          <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="footer__widget">
                <div className="logo mb-35">
-                  <Link to="/"><img className="h-100px" src={toAbsoluteUrl("/assets/img/logo/logo.svg")} alt="img" /></Link>
+                  <Link to={toAbsoluteUrl("/")}><img className="h-100px" src={toAbsoluteUrl("/assets/img/logo/logo.svg")} alt="img" /></Link>
                </div>
                <div className="footer__content">
                   <p>We are Now India's Growing Trading Course Which is trusted by more than 250+ Students</p>
