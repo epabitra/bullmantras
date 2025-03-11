@@ -61,11 +61,11 @@ const CourseArea = ({ style }: CourseProps) => {
       <div className="container">
         <div className="section__title-wrap">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="">
               <div className="section__title text-center mb-40">
-                <span className="sub-title">Top Class Courses</span>
-                <h2 className="title">Explore Our World&apos;s Best Courses</h2>
-                <p className="desc">Discover expertly crafted courses designed to elevate your skills and knowledge. Join a global community of learners and take your expertise to the next level.</p>
+                <span className="sub-title">Benefits of Enrolling in Our Course</span>
+                <h2 className="title">Join the Most Simplified Trading Course by Pratyush Ranjan Padhy</h2>
+                <p className="desc">The Bull Mantra trading course takes you from the basics to advanced concepts, teaching you how the market operates and how to turn logical thinking into profitable action. Our simplified strategies are designed to help you understand the process of earning and achieving financial independence effectively and efficiently. Start your journey toward success today! 🚀</p>
               </div>
               <div className="courses__nav">
                 <ul className="nav nav-tabs" id="courseTab" role="tablist">

@@ -64,9 +64,9 @@ const FaqArea = () => {
                   <div className="faq__content">
                      <div className="section__title pb-10">
                         <span className="sub-title">Faq’s</span>
-                        <h2 className="title">Start Learning from the World’s Best Instructors</h2>
+                        <h2 className="title">Learn from the Best – Course by Pratyush Ranjan Padhy</h2>
                      </div>
-                     <p>At BullMantra, we bring you top-tier trading education led by industry professionals. Our structured courses, real-time market insights, and expert mentorship help you build confidence and master the art of trading.</p>
+                     <p>Having gained vast experience from veterans in the field, Pratyush Ranjan Padhy brings a practical, in-depth, and tested approach to his strategies. Despite his expertise, he has crafted this course in the simplest way possible, ensuring it's accessible to everyone, no matter their experience level.</p>
                      <div className="faq__wrap">
                         <div className="accordion" id="accordionExample">
                            {faqData.map((item, index) => (

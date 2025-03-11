@@ -29,7 +29,7 @@ const Banner = () => {
                         starts with continuous learning
                      </h3>
                      <p>
-                        We are Bull Mantra, and we help you learn and invest in stocks.
+                        Bull Mantra provides the most simplified and to-the-point stock market course, designed from scratch for beginners, making it the best institute for mastering the stock market.
                      </p>
                      <div className="banner__btn-wrap">
                         <a 
@@ -37,7 +37,7 @@ const Banner = () => {
                            className="btn arrow-btn"
                            target='_blank'
                            >
-                           Download Brochore
+                           Download Broucher
                         </a>
                      </div>
                   </div>
