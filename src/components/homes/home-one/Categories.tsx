@@ -1,7 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import { Link } from "react-router-dom";
-import feature_data from "../../../data/home-data/FeatureData";
 import { toAbsoluteUrl } from "../../../helper/HelperConstants";
 
 interface DataType {
@@ -14,7 +12,7 @@ interface DataType {
    desc: string;
 };
 
-const category_data: DatatYpe[] = [
+const category_data: DataType[] = [
   {
         id: 1,
         page: "home_1",
@@ -35,7 +33,7 @@ const category_data: DatatYpe[] = [
         icon: toAbsoluteUrl("/assets/img/icons/features_icon02.svg"),
         title: "Missed a Class? No Worries!",
         desc: "Stay on track with 400+ revision classes—catch up anytime! 🚀",
-     },
+     }
      // {
      //    id: 4,
      //    page: "home_1",

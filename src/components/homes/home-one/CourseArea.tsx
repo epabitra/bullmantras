@@ -88,7 +88,7 @@ const CourseArea = ({ style }: CourseProps) => {
                   <SwiperSlide key={item.id} className="swiper-slide">
                     <div className="courses__item shine__animate-item">
                       <div className="courses__item-thumb">
-                        <Link to={toAbsoluteUrl("/course-details")} className="shine__animate-link">
+                        <Link to={toAbsoluteUrl("#")} className="shine__animate-link">
                           <img src={item.thumb} alt="img" />
                         </Link>
                       </div>
@@ -103,7 +103,7 @@ const CourseArea = ({ style }: CourseProps) => {
                         <p className="author">By <Link to="#">{item.author}</Link></p>
                         <div className="courses__item-bottom">
                           <div className="button">
-                            <Link to={toAbsoluteUrl("/course-details")}>
+                            <Link to={toAbsoluteUrl("#")}>
                               <span className="text">Enroll Now</span>
                               <i className="flaticon-arrow-right"></i>
                             </Link>
