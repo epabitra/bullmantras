@@ -113,8 +113,8 @@ const menu_data: MenuItem[] = [
     },
     {
         id: 4,
-        title: "Dashboard",
-        link: "#",
+        title: "Contact Us",
+        link: toAbsoluteUrl("/contact"),
         // sub_menus: [
         //     {
         //         link: "#",

@@ -63,7 +63,7 @@ const About = () => {
                            </li>
                         </ul>
                         <div className="tg-button-wrap">
-                           <Link to={toAbsoluteUrl("#")} className="btn arrow-btn">Start Free Trial <BtnArrow /></Link>
+                           <Link to={toAbsoluteUrl("/shop-details")} className="btn arrow-btn">Enroll Now<BtnArrow /></Link>
                         </div>
                      </div>
                   </div>
